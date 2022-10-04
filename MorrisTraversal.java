@@ -21,6 +21,7 @@ class TreeNode {
 
 class MorrisTraversal {
     static List<Integer> inorderTraversal(TreeNode root) {
+        //creating an arrayList which we need to return
         ArrayList<Integer> result = new ArrayList<>();
         TreeNode curr = root;
 
